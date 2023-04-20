@@ -227,104 +227,6 @@ nav{
     }
 }
 
-@media screen and (max-width: 390px){
-    nav{
-        display: flex;
-        background-color: #F5F5F5;
-        padding: 15px;
-    }
-    .mi-logo{
-        position: absolute;
-        left: 10px;
-        display: grid;
-        justify-content: space-between;
-        box-sizing: border-box;
-    }
-    .mi-logo p{
-        position: absolute;
-        left: 25px;
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        color: #464646;
-        padding-left: 5px;
-        padding-top: 3px;
-    
-    }
-
-    .enlaces-container{
-        position: relative;
-        box-sizing: border-box;
-        width: 200px;
-        
-    }
-    .enlaces-container a{
-        text-decoration: none;
-        color: #464646;
-        font-weight: 500;
-        font-family: 'Raleway', sans-serif;
-        font-size: 16px;
-    }
-    .enlaces-container a:nth-child(1){
-        display: none;
-    }
-    .enlaces-container a:nth-child(2){
-        display: none;
-    }
-    .enlaces-container a:nth-child(3){
-        display: none;
-    }
-    .enlaces-container a:nth-child(4){
-        display: none;
-    }
-    .enlaces-container a:nth-child(5){
-        display: none;
-    }
-    .enlaces-container a:nth-child(6){
-        padding-left: 120px;
-        padding-top: 2px;
-    }
-
-    .perfil-container{
-        position: absolute;
-        left: 60px;
-        top: 70px;
-        width: 270px;
-        height: 270px;
-        box-sizing: border-box;
-    }
-    .perfil-container img{
-        box-sizing: border-box;
-        width: 268px;
-        height: 268px;
-        border-radius: 200px;
-    }
-
-    .seccion1-container{
-        height: 780px;
-        padding-left: 30px;
-        padding-right: 20px;
-        background-color: #F5F5F5;
-    }
-    .seccion-1{
-        padding-top: 200px;   
-    }
-    .seccion2-container{
-        display: flex;
-        background-color: #EAF2FD;
-        width: 100%;
-        height: 480px;
-    }
-    .seccion-sobremi{
-        padding-left: 30px;
-        padding-top: 40px;
-    }
-    .seccion-sobremi p{
-        padding-right: 30px;
-    }
-}
-
 @media screen and (max-width: 414px){
     nav{
         display: flex;
@@ -386,7 +288,7 @@ nav{
 
     .perfil-container{
         position: absolute;
-        left: 60px;
+        left: 70px;
         top: 70px;
         width: 270px;
         height: 270px;
@@ -408,6 +310,109 @@ nav{
     .seccion-1{
         padding-top: 200px;   
     }
+    .seccion2-container{
+        display: flex;
+        background-color: #EAF2FD;
+        width: 100%;
+        height: 480px;
+    }
+    .seccion-sobremi{
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+    .seccion-sobremi p{
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    nav{
+        display: flex;
+        background-color: #F5F5F5;
+        padding: 15px;
+    }
+    .mi-logo{
+        position: absolute;
+        left: 10px;
+        display: grid;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .mi-logo p{
+        position: absolute;
+        left: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #464646;
+        padding-left: 5px;
+        padding-top: 3px;
+    
+    }
+
+    .enlaces-container{
+        position: relative;
+        box-sizing: border-box;
+        width: 200px;
+        
+    }
+    .enlaces-container a{
+        text-decoration: none;
+        color: #464646;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+    }
+    .enlaces-container a:nth-child(1){
+        display: none;
+    }
+    .enlaces-container a:nth-child(2){
+        display: none;
+    }
+    .enlaces-container a:nth-child(3){
+        display: none;
+    }
+    .enlaces-container a:nth-child(4){
+        display: none;
+    }
+    .enlaces-container a:nth-child(5){
+        display: none;
+    }
+    .enlaces-container a:nth-child(6){
+        padding-left: 120px;
+        padding-top: 2px;
+    }
+
+    .perfil-container{
+        position: absolute;
+        left: 55px;
+        top: 70px;
+        width: 270px;
+        height: 270px;
+        box-sizing: border-box;
+    }
+    .perfil-container img{
+        box-sizing: border-box;
+        width: 268px;
+        height: 268px;
+        border-radius: 200px;
+    }
+
+    .seccion1-container{
+        height: 780px;
+        padding-left: 30px;
+        padding-right: 20px;
+        background-color: #F5F5F5;
+    }
+    .seccion-1{
+        padding-top: 200px;   
+    }
+
+    .seccion-1 h1{
+        font-size: 2em;
+    }
+
     .seccion2-container{
         display: flex;
         background-color: #EAF2FD;
