@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    padding: 32px;
+}
+
+.mi-logo{
+    position: relative;
+    right: 200px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.mi-logo p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    padding-left: 5px;
+    padding-top: 3px;
+
+}
+.enlaces-container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 700px;
+    
+}
+.enlaces-container a{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.enlaces-container a:nth-child(6){
+    color: #464646;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*Seccion 0*/
+.seccion1-container{
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+    height: 450px;
+    padding-left: 200px;
+    background-color: #F5F5F5;
+}
+.seccion-1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+}
+.seccion-1 h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    color: #464646;
+    padding-top: 60px;
+}
+.seccion-1 p{
+    padding-top: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #464646;
+}
+.links-container{
+    padding-top: 20px;
+}
+.links-container a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #464646;
+}
+.links-container img{
+    position: relative;
+    top: 4px;
+}
+.perfil-container{
+    position: relative;
+    right: 150px;
+    top: 30px;
+    width: 370px;
+    height: 370px;
+    box-sizing: border-box;
+}
+.perfil-container img{
+    box-sizing: border-box;
+    width: 368px;
+    height: 368px;
+    border-radius: 200px;
+}
+
+/*Seccion Sobre mi*/
+.seccion2-container{
+    display: flex;
+    background-color: #EAF2FD;
+    width: 100%;
+    height: 421px;
+}
+
+.seccion-sobremi{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-top: 80px;
+}
+.seccion-sobremi h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+.seccion-sobremi p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #464646;
+    padding-top: 30px;
+    
+}
+
+/*Responsive*/
+@media (max-width: 1440px){ 
+    .seccion1-container{
+        display: flex;
+        justify-content: space-evenly;
+        box-sizing: content-box;
+        height: 450px;
+        padding-left: 100px;
+        background-color: #F5F5F5;
+    }
+    .perfil-container{
+        right: 50px;   
+    }
+    .mi-logo{
+        right: 100px;
+    }
+    .mi-logo p{
+        padding-left: 10px;
+    }
+    .seccion2-container{
+        display: flex;
+        background-color: #EAF2FD;
+        width: 100%;
+        height: 360px;
+    }
+    .seccion-sobremi{
+        padding-left: 180px;
+    }
+}
+
+@media (max-width: 768px){ 
+    .enlaces-container{
+        left: 30px; 
+    }
+    .mi-logo{
+        position: relative;
+        left: 5px;
+    }
+    .mi-logo p{
+        padding-left: 10px;
+    }
+    .seccion1-container{
+        height: 550px;
+        padding-left: 50px;
+        background-color: #F5F5F5;
+    }
+    .seccion-1 h1{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        color: #464646;
+        padding-top: 60px;
+    }
+    .seccion-1 p{
+        padding-top: 20px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #464646;
+    }
+    .perfil-container{
+        right: 20px;
+        top: 90px;
+    }
+    .perfil-container img{
+        width: 268px;
+        height: 268px;
+    }
+    .seccion2-container{
+        display: flex;
+        background-color: #EAF2FD;
+        width: 100%;
+        height: 367px;
+    }
+    .seccion-sobremi{
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+    .seccion-sobremi p{
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 390px){
+
+}
