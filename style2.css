@@ -1,0 +1,109 @@
+.container-skills{
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+.container-skills{
+    background-color: #f5f5f5;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.container-skills .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.container-skills .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.container-skills .box-container .box{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+.container-skills .box-container .box img{
+    height: 50px;
+}
+.container-skills .box-container .box h3{
+    line-height: 2.8;
+}
+
+/*FORMACION ACADEMICA*/
+.container-formacion{
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+.container-formacion{
+    background-color: #EAF2FD;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.container-formacion .heading{
+    text-align: center;
+    padding-bottom:15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    margin-top: 2rem;
+}
+
+.container-formacion .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 80px 15px;
+    padding-top: 70px;
+}
+
+.container-formacion .box-container .box{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+.container-formacion .box-container .box img{
+    height: 100px;
+}
+.container-formacion .box-container h3{
+  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #464646;
+
+}
+
+.container-formacion .box-container p{
+    font-size: 1rem;
+    color: #464646;
+    font-weight: 500;
+}
+
+.container-formacion .box-container h3{
+    position: absolute;
+    margin-top: 3.5rem;
+}
+.container-formacion .box-container p{
+    position: absolute;
+    margin-top: 5.5rem;
+   
+}
