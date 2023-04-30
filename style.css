@@ -4,6 +4,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html{
+    /* me permite deslizar cuando hago click en los links del menu*/
+    scroll-behavior: smooth;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
